@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  box-sizing: border-box;
+
+  --primary-color: #2c3333;
+  --secondary-color: #395b64;
+  --accent-1: #a5c9ca;
+  --accent-2: #e7f6f2;
+
+  --neutral-1: black;
+  --neutral-2: white;
+}
+
+.container{
+	display: flex;
+  	flex-direction: column;
+  	gap: 16px;
+
+  	border: 2px solid var(--secondary-color);
+  	background-color: var(--neutral-2);
+
+  	width: 90%;
+  	padding: 1rem;
+
+  	box-shadow: 6px 6px 0px var(--accent-1);
+}
+button{
+	width: 10rem;
+	height: 10rem;
+	margin-top: 2.5rem;
+}
+a{
+	color: var(--neutral-2);
+	text-decoration: none;
+}
+.text-center{
+	margin-top: 2.5rem;
+}
